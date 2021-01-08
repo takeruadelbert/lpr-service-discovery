@@ -1,8 +1,8 @@
 version: '3.0'
 services:
-  java:
+  service-discovery:
     image: openjdk:8-jdk-slim
-    container_name: service-discovery
+    container_name: service-discovery-container
     command: java -jar service-discovery-0.0.1.war -m http.server 8761
     ports:
       - 8761:8761
