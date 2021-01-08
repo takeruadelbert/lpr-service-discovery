@@ -9,10 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.stn</groupId>
-    <artifactId>servicediscovery</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>service-discovery</artifactId>
+    <version>0.0.1</version>
     <name>service-discovery</name>
     <description>Service Discovery Using Eureka Netflix</description>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>1.8</java.version>

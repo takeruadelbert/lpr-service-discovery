@@ -1,1 +1,3 @@
-# lpr-service-discovery
+# Service Discovery
+
+using Netflix Eureka service registry.
